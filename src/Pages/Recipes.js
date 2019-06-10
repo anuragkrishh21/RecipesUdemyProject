@@ -24,7 +24,7 @@ export default class Recipes extends Component {
                 <Search search={this.state.search} 
                 handleChange={this.handleChange}
                 handleSubmit={this.handleSubmit}/>
-                <RecipeList/>
+                <RecipeList recipes={this.state.recipes}/>
             </>
         );
     }
